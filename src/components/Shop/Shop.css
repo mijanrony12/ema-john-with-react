@@ -1,0 +1,21 @@
+.shop-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  margin-left: 15%;
+}
+.shop {
+  border: 2px solid lightgrey;
+  margin: 0px 10px;
+}
+.search-container {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+}
+.search {
+  width: 70%;
+  margin: 0 auto;
+}
+.search input {
+  width: 100%;
+  padding: 10px 5px;
+}
