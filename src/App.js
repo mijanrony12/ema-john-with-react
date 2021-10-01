@@ -10,8 +10,9 @@ import NotFound from './components/NotFound/NotFound';
 function App() {
   return (
     <div>
-      <Header></Header>
-              <Router>
+      
+                  <Router>
+                          <Header></Header>
                         <Switch>   
                                  <Route exact path="/">
                                         <Shop></Shop>
