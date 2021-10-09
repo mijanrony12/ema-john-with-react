@@ -17,8 +17,8 @@ const Header = () => {
             <nav>
                     <NavLink to="/shop" activeStyle={linkStyle}>Shop</NavLink>
                     <NavLink to="/review" activeStyle={linkStyle}>Order Review</NavLink>
-                <NavLink to="/inventory" activeStyle={ linkStyle }>Manage inventory</NavLink>
-                <span style={{color:'white'}}> { user.displayName}</span>
+                    <NavLink to="/inventory" activeStyle={ linkStyle }>Manage inventory</NavLink>
+                    <span style={{color:'white'}}> { user.displayName}</span>
                 {
                     user.email ?
                     <button onClick={logOut}>Log Out</button>    
