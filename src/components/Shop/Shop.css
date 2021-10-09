@@ -19,3 +19,12 @@
   width: 100%;
   padding: 10px 5px;
 }
+.btn-color {
+  background-color: #f39c12;
+  padding: 5px 40px;
+  border: none;
+  border-radius: 5px;
+}
+.btn-color:hover {
+  border: 1px solid black;
+}
