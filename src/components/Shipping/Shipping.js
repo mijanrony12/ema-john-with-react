@@ -18,7 +18,7 @@ const Shipping = () => {
      
       {errors.email && <span className="error">This field is required</span>}
       
-      <input type="submit" />
+      <input  type="submit" />
     </form>
         </div>
     );
